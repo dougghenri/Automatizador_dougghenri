@@ -127,23 +127,17 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jScrollPane1" alignment="0" min="-2" pref="1075" max="-2" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
                                       <Component id="jTextField1" min="-2" pref="644" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="jScrollPane1" alignment="0" min="-2" pref="1075" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-                                      <Component id="btnspt" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
-                                      <Component id="btnagend" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
                                       <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="jButton7" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -154,24 +148,26 @@
                                           </Group>
                                       </Group>
                                   </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="193" max="-2" attributes="0"/>
+                                      <Component id="btnserv" min="-2" pref="65" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
-                                      <Component id="btntec" min="-2" pref="70" max="-2" attributes="0"/>
-                                      <EmptySpace pref="317" max="32767" attributes="0"/>
+                                      <EmptySpace pref="133" max="32767" attributes="0"/>
+                                      <Component id="btnspt" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
                                       <Component id="btncadas" min="-2" pref="70" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="978" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="1151" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="jButton4" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <Component id="btnalteraplano" min="-2" pref="99" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-                                              <Component id="btnmigrar" min="-2" pref="93" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
+                                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                      <Component id="btnalteraplano" min="-2" pref="99" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                      <Component id="btnmigrar" min="-2" pref="93" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jButton4" min="-2" pref="116" max="-2" attributes="0"/>
                                       <EmptySpace max="32767" attributes="0"/>
                                       <Component id="jButton6" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="791" max="-2" attributes="0"/>
@@ -187,10 +183,9 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btnspt" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnagend" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btnspt" alignment="0" max="32767" attributes="0"/>
                           <Component id="btncadas" alignment="1" max="32767" attributes="0"/>
-                          <Component id="btntec" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btnserv" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -198,11 +193,10 @@
                           <Component id="jButton6" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="btnalteraplano" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnsuspen" alignment="1" max="32767" attributes="0"/>
-                          <Component id="btncance" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+                          <Component id="btncance" alignment="0" pref="105" max="32767" attributes="0"/>
+                          <Component id="jButton4" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jButton7" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="jTextField1" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -247,11 +241,6 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncadasActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="btnagend">
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnagendActionPerformed"/>
-              </Events>
-            </Component>
             <Component class="javax.swing.JButton" name="btnspt">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
@@ -263,29 +252,41 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsptActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="btntec">
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btntecActionPerformed"/>
-              </Events>
-            </Component>
             <Component class="javax.swing.JButton" name="btnalteraplano">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icones/icons8-alterar-64.png"/>
+                </Property>
+              </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnalteraplanoActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="btnsuspen">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icones/icons8-cancelar-assinatura-50.png"/>
+                </Property>
+              </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsuspenActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="btncance">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icones/icons8-fired-64.png"/>
+                </Property>
+              </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncanceActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="jButton4">
               <Properties>
-                <Property name="text" type="java.lang.String" value="migra&#xe7;&#xe3;o de tecnologia"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icones/roteador-wi-fi.png"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
@@ -307,8 +308,24 @@
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="jButton7">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icones/icons8-lupa-50.png"/>
+                </Property>
+              </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnserv">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icones/icons8-homens-trabalhadores-50.png"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Atendimento"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnservActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>

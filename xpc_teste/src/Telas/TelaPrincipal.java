@@ -32,9 +32,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         btncadas = new javax.swing.JButton();
-        btnagend = new javax.swing.JButton();
         btnspt = new javax.swing.JButton();
-        btntec = new javax.swing.JButton();
         btnalteraplano = new javax.swing.JButton();
         btnsuspen = new javax.swing.JButton();
         btncance = new javax.swing.JButton();
@@ -43,6 +41,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jButton6 = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
         jButton7 = new javax.swing.JButton();
+        btnserv = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -78,12 +77,6 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        btnagend.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnagendActionPerformed(evt);
-            }
-        });
-
         btnspt.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/icons8-suporte-64.png"))); // NOI18N
         btnspt.setToolTipText("Atendimento");
         btnspt.addActionListener(new java.awt.event.ActionListener() {
@@ -92,31 +85,28 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        btntec.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btntecActionPerformed(evt);
-            }
-        });
-
+        btnalteraplano.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/icons8-alterar-64.png"))); // NOI18N
         btnalteraplano.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnalteraplanoActionPerformed(evt);
             }
         });
 
+        btnsuspen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/icons8-cancelar-assinatura-50.png"))); // NOI18N
         btnsuspen.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsuspenActionPerformed(evt);
             }
         });
 
+        btncance.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/icons8-fired-64.png"))); // NOI18N
         btncance.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btncanceActionPerformed(evt);
             }
         });
 
-        jButton4.setText("migração de tecnologia");
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/roteador-wi-fi.png"))); // NOI18N
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -141,17 +131,24 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/icons8-lupa-50.png"))); // NOI18N
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
             }
         });
 
+        btnserv.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icones/icons8-homens-trabalhadores-50.png"))); // NOI18N
+        btnserv.setToolTipText("Atendimento");
+        btnserv.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnservActionPerformed(evt);
+            }
+        });
+
         Desktop.setLayer(jScrollPane1, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(btncadas, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        Desktop.setLayer(btnagend, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(btnspt, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        Desktop.setLayer(btntec, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(btnalteraplano, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(btnsuspen, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(btncance, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -160,6 +157,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         Desktop.setLayer(jButton6, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(jTextField1, javax.swing.JLayeredPane.DEFAULT_LAYER);
         Desktop.setLayer(jButton7, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        Desktop.setLayer(btnserv, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         javax.swing.GroupLayout DesktopLayout = new javax.swing.GroupLayout(Desktop);
         Desktop.setLayout(DesktopLayout);
@@ -170,18 +168,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(DesktopLayout.createSequentialGroup()
                         .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1075, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(DesktopLayout.createSequentialGroup()
                                 .addGap(126, 126, 126)
-                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 644, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1075, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 644, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(DesktopLayout.createSequentialGroup()
-                        .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(DesktopLayout.createSequentialGroup()
-                                .addGap(64, 64, 64)
-                                .addComponent(btnspt)
-                                .addGap(80, 80, 80)
-                                .addComponent(btnagend))
+                        .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(DesktopLayout.createSequentialGroup()
                                 .addGap(13, 13, 13)
                                 .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -189,21 +182,24 @@ public class TelaPrincipal extends javax.swing.JFrame {
                                     .addGroup(DesktopLayout.createSequentialGroup()
                                         .addComponent(btnsuspen, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(37, 37, 37)
-                                        .addComponent(btncance, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                        .addComponent(btncance, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(DesktopLayout.createSequentialGroup()
+                                .addGap(193, 193, 193)
+                                .addComponent(btnserv, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(DesktopLayout.createSequentialGroup()
-                                .addGap(73, 73, 73)
-                                .addComponent(btntec, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 317, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 133, Short.MAX_VALUE)
+                                .addComponent(btnspt)
+                                .addGap(112, 112, 112)
                                 .addComponent(btncadas, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(978, 978, 978))
+                                .addGap(1151, 1151, 1151))
                             .addGroup(DesktopLayout.createSequentialGroup()
-                                .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jButton4)
-                                    .addGroup(DesktopLayout.createSequentialGroup()
-                                        .addComponent(btnalteraplano, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(54, 54, 54)
-                                        .addComponent(btnmigrar, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(28, 28, 28)
+                                .addComponent(btnalteraplano, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(54, 54, 54)
+                                .addComponent(btnmigrar, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jButton6)
                                 .addGap(791, 791, 791))))))
@@ -213,20 +209,18 @@ public class TelaPrincipal extends javax.swing.JFrame {
             .addGroup(DesktopLayout.createSequentialGroup()
                 .addGap(40, 40, 40)
                 .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnspt)
-                    .addComponent(btnagend, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnspt, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btncadas, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btntec, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(btnserv, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(73, 73, 73)
                 .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(btnmigrar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButton6)
                     .addComponent(btnalteraplano, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnsuspen, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btncance, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(34, 34, 34)
-                .addComponent(jButton4)
-                .addGap(47, 47, 47)
+                    .addComponent(btncance, javax.swing.GroupLayout.DEFAULT_SIZE, 105, Short.MAX_VALUE)
+                    .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(104, 104, 104)
                 .addGroup(DesktopLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton7)
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -330,26 +324,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
         Desktop.add(conta);
     }//GEN-LAST:event_btncadasActionPerformed
 
-    private void btnagendActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnagendActionPerformed
-        // TODO add your handling code here:
-        //        TelaHisotricoFotos7 fots = new TelaHisotricoFotos7();
-        //        fots.setVisible(true);
-        //        Desktop.add(fots);
-    }//GEN-LAST:event_btnagendActionPerformed
-
     private void btnsptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsptActionPerformed
         // TODO add your handling code here:
         //        TelaAtendimento atendimento = new TelaAtendimento();
         //        atendimento.setVisible(true);
         //        Desktop.add(atendimento);
     }//GEN-LAST:event_btnsptActionPerformed
-
-    private void btntecActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btntecActionPerformed
-        // TODO add your handling code here:
-        //        TelaOdontograma_sexta dente = new TelaOdontograma_sexta();
-        //        dente.setVisible(true);
-        //        Desktop.add(dente);
-    }//GEN-LAST:event_btntecActionPerformed
 
     private void btnalteraplanoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnalteraplanoActionPerformed
         // TODO add your handling code here:
@@ -382,6 +362,11 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void btnservActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnservActionPerformed
+telaserv servico = new telaserv();
+        servico.setVisible(true);
+        Desktop.add(servico);    }//GEN-LAST:event_btnservActionPerformed
 
     /**
      * @param args the command line arguments
@@ -420,14 +405,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JDesktopPane Desktop;
-    private javax.swing.JButton btnagend;
     private javax.swing.JButton btnalteraplano;
     private javax.swing.JButton btncadas;
     private javax.swing.JButton btncance;
     private javax.swing.JButton btnmigrar;
+    private javax.swing.JButton btnserv;
     private javax.swing.JButton btnspt;
     private javax.swing.JButton btnsuspen;
-    private javax.swing.JButton btntec;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
