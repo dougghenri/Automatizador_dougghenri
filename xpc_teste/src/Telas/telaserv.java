@@ -47,9 +47,9 @@ public class telaserv extends javax.swing.JInternalFrame {
         cbostatus = new javax.swing.JComboBox<>();
         cbosolu = new javax.swing.JComboBox<>();
         txtagenda = new javax.swing.JTextField();
-        txtresponsavel = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        jComboBox1 = new javax.swing.JComboBox<>();
 
         setClosable(true);
 
@@ -181,8 +181,8 @@ public class telaserv extends javax.swing.JInternalFrame {
                                     .addComponent(cbosolu, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(cbostatus, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(txtagenda)
-                                    .addComponent(txtresponsavel)
-                                    .addComponent(cbotipo, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                    .addComponent(cbotipo, 0, 260, Short.MAX_VALUE)
+                                    .addComponent(jComboBox1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                             .addComponent(jScrollPane1))
                         .addGap(150, 150, 150))))
         );
@@ -212,7 +212,7 @@ public class telaserv extends javax.swing.JInternalFrame {
                         .addGap(33, 33, 33)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel11)
-                            .addComponent(txtresponsavel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(btnagenda)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -236,9 +236,9 @@ public class telaserv extends javax.swing.JInternalFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel4)
                             .addComponent(cboorigem, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(45, 45, 45)
+                .addGap(42, 42, 42)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 391, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(15, Short.MAX_VALUE))
         );
 
         pack();
@@ -270,6 +270,7 @@ public class telaserv extends javax.swing.JInternalFrame {
     private javax.swing.JComboBox<String> cbosolu;
     private javax.swing.JComboBox<String> cbostatus;
     private javax.swing.JComboBox<String> cbotipo;
+    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -285,6 +286,5 @@ public class telaserv extends javax.swing.JInternalFrame {
     private javax.swing.JTextField txtagenda;
     private javax.swing.JTextField txtcliente;
     private javax.swing.JTextField txtnumero;
-    private javax.swing.JTextField txtresponsavel;
     // End of variables declaration//GEN-END:variables
 }
